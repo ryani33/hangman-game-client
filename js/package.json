@@ -1,0 +1,29 @@
+{
+  "name": "hangman-game-node-client",
+  "version": "1.0.0",
+  "description": "This is a program to play Hangman, guessing words from the server through a RESTful API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryani33/hangman-game-client.git"
+  },
+  "author": "Xiaoyu Zhai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryani33/hangman-game-client/issues"
+  },
+  "homepage": "https://github.com/ryani33/hangman-game-client#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "guid": "0.0.12",
+    "mongodb": "^2.1.7",
+    "path": "^0.12.7",
+    "request-promise": "^2.0.0"
+  }
+}

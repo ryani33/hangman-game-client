@@ -1,0 +1,64 @@
+body {
+  position: relative;
+}
+
+.scroll-fix {
+    padding-top: 40px;
+    margin-top: -40px;
+}
+.jumbotron {
+    background-color: #f9f9f9;
+    border: 1px solid #e8e8e8;
+}
+
+.movie-badge {
+    color: #fff;
+    background-color: #333;
+}
+
+.text-stay-clicked {
+    color: #fff;
+}
+
+.entry-single-popular {
+    padding-bottom: 40px;
+}
+
+.entry-single-all{
+    padding-bottom: 40px;
+}
+
+.rating-bar {
+    background-color: #f9f9f9;
+}
+
+.yellow-font-btn {
+    color: orange;
+}
+
+.blue-font-btn {
+    color: cornflowerblue;
+}
+
+.red-font-btn {
+    color: orangered;
+}
+
+.gray-font-btn {
+    color: dimgray;
+}
+
+.entry-content {
+    margin-bottom: 100px;
+}
+
+.breadcrumb-white {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.hover-non-decoration:hover, :active, :visited{
+    text-decoration: none;
+}
+
