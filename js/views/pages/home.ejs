@@ -32,7 +32,7 @@
                                 <div class="alert alert-success" role="alert" id="message-alert"><%= message.title%></div>
                             <% } %>
                             <% if (message.action === 5) { %>
-                                <div class="alert alert-success" role="alert" id="message-alert"><%= message.title%>! Your final score: <%= message.score%></div>
+                                <div class="alert alert-success" role="alert" id="message-alert">Game Over! Your final score: <%= message.score%></div>
                             <% } %>
                             <div class="row">
                                 <h3 class="col-md-5">Game Round: <%= message.current%> / <%= message.total%></h3>
@@ -80,7 +80,7 @@
                         </button>
                     </form>
                 <% } else { %>
-                    <form id="new-guess-form" class="form-horizontal" style="margin-bottom: 50px">
+                    <form id="new-guess-form" method="POST" class="form-horizontal" style="margin-bottom: 50px">
                         <div class="form-group">
                             <label class="control-label col-md-2" for="guessChar">Try</label>
                             <div class="col-md-8">
@@ -95,7 +95,7 @@
                         </button>
                         <button class="btn btn-info" style="margin-top: 10px" id="start-btn">Restart
                         </button>
-                        <button class="btn btn-danger" style="margin-top: 10px" id="submit-btn">Submit
+                        <button type="submit" class="btn btn-danger" style="margin-top: 10px" id="submit-btn">Submit
                         </button>
                     </form>
                 <% } %>
